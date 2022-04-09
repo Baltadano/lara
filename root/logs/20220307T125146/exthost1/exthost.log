@@ -1,0 +1,744 @@
+[2022-03-07 12:52:02.879] [exthost] [info] Extension host with pid 52247 started
+[2022-03-07 12:52:06.356] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-07 12:52:06.637] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-07 12:52:06.716] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-03-07 12:52:11.798] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-07 12:52:11.882] [exthost] [info] Eager extensions activated
+[2022-03-07 12:52:11.888] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-07 12:52:12.516] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-07 12:53:12.577] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-03-07 12:53:12.580] [exthost] [info] Extension host with pid 52247 exiting with code 0
+[2022-03-07 12:53:17.998] [exthost] [info] Extension host with pid 52389 started
+[2022-03-07 12:53:17.998] [exthost] [info] Skipping acquiring lock for /root/dockers/lara/www/proyecto_laravel/root/User/workspaceStorage/11e7963b327909a1859c3f249b2ebcef.
+[2022-03-07 12:53:18.864] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-07 12:53:18.903] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-07 12:53:18.912] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-03-07 12:53:18.964] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-03-07 12:53:19.457] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-07 12:53:20.442] [exthost] [info] Eager extensions activated
+[2022-03-07 12:53:20.553] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-07 12:53:20.642] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-07 12:53:54.429] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+[2022-03-14 12:30:17.214] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-03-14 12:30:17.228] [exthost] [error] Error: Unable to consume quoted string at char 48
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at o (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21278)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21705)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14540)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201200)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186943)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at K.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:104499)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126398
+	at be._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:116655)
+	at be.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126374)
+	at n._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13812)
+	at n._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13496)
+	at n._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12107)
+	at n._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10836)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8945
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34267
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at s._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23598)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21132
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at w.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15848)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14978
+	at Socket.P (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13790)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-14 12:34:33.335] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-03-14 12:34:33.336] [exthost] [error] Error: Unable to find matching pair for < at char 278
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21837)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14498)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201200)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186943)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at K.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:104499)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126398
+	at be._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:116655)
+	at be.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126374)
+	at n._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13812)
+	at n._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13496)
+	at n._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12107)
+	at n._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10836)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8945
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34267
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at s._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23598)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21132
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at w.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15848)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14978
+	at Socket.P (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13790)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-14 12:34:43.182] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-03-14 12:34:43.182] [exthost] [error] Error: Unable to find matching pair for < at char 278
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21837)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14498)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201200)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186943)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at K.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:104499)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126398
+	at be._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:116655)
+	at be.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126374)
+	at n._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13812)
+	at n._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13496)
+	at n._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12107)
+	at n._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10836)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8945
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34267
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at s._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23598)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21132
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at w.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15848)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14978
+	at Socket.P (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13790)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-14 12:34:50.873] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-03-14 12:34:50.874] [exthost] [error] Error: Unable to consume quoted string at char 292
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at o (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21278)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21705)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14498)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201200)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186943)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at K.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:104499)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126398
+	at be._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:116655)
+	at be.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126374)
+	at n._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13812)
+	at n._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13496)
+	at n._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12107)
+	at n._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10836)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8945
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34267
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at s._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23598)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21132
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at w.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15848)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14978
+	at Socket.P (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13790)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-14 12:34:55.112] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-03-14 12:34:55.116] [exthost] [error] Error: Unable to consume quoted string at char 292
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at o (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21278)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21705)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14498)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201200)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186943)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at K.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:104499)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126398
+	at be._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:116655)
+	at be.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126374)
+	at n._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13812)
+	at n._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13496)
+	at n._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12107)
+	at n._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10836)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8945
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34267
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at s._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23598)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21132
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at w.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15848)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14978
+	at Socket.P (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13790)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-14 12:34:59.371] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-03-14 12:34:59.371] [exthost] [error] Error: Unable to consume quoted string at char 292
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at o (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21278)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21705)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14498)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201200)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186943)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at K.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:104499)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126398
+	at be._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:116655)
+	at be.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126374)
+	at n._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13812)
+	at n._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13496)
+	at n._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12107)
+	at n._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10836)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8945
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34267
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at s._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23598)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21132
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at w.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15848)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14978
+	at Socket.P (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13790)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-14 12:34:59.934] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-03-14 12:34:59.935] [exthost] [error] Error: Unable to consume quoted string at char 292
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at o (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21278)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21705)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14498)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201200)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186943)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at K.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:104499)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126398
+	at be._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:116655)
+	at be.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126374)
+	at n._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13812)
+	at n._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13496)
+	at n._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12107)
+	at n._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10836)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8945
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34267
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at s._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23598)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21132
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at w.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15848)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14978
+	at Socket.P (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13790)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-14 12:35:00.533] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-03-14 12:35:00.533] [exthost] [error] Error: Unable to consume quoted string at char 292
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at o (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21278)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21705)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14498)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201200)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186943)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at K.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:104499)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126398
+	at be._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:116655)
+	at be.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126374)
+	at n._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13812)
+	at n._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13496)
+	at n._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12107)
+	at n._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10836)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8945
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34267
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at s._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23598)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21132
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at w.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15848)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14978
+	at Socket.P (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13790)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-14 12:35:01.098] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-03-14 12:35:01.099] [exthost] [error] Error: Unable to consume quoted string at char 292
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at o (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21278)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21705)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14498)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201200)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186943)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at K.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:104499)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126398
+	at be._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:116655)
+	at be.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126374)
+	at n._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13812)
+	at n._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13496)
+	at n._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12107)
+	at n._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10836)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8945
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34267
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at s._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23598)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21132
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at w.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15848)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14978
+	at Socket.P (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13790)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-14 12:35:01.099] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-03-14 12:35:01.099] [exthost] [error] Error: Unable to consume quoted string at char 292
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at o (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21278)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21705)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14498)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201200)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186943)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at K.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:104499)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126398
+	at be._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:116655)
+	at be.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126374)
+	at n._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13812)
+	at n._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13496)
+	at n._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12107)
+	at n._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10836)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8945
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34267
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at s._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23598)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21132
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at w.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15848)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14978
+	at Socket.P (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13790)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-14 12:35:01.178] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-03-14 12:35:01.178] [exthost] [error] Error: Unable to consume quoted string at char 292
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at o (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21278)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21705)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14498)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201200)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186943)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at K.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:104499)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126398
+	at be._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:116655)
+	at be.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126374)
+	at n._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13812)
+	at n._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13496)
+	at n._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12107)
+	at n._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10836)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8945
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34267
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at s._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23598)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21132
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at w.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15848)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14978
+	at Socket.P (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13790)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-14 12:35:01.179] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-03-14 12:35:01.179] [exthost] [error] Error: Unable to consume quoted string at char 292
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at o (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21278)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21705)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14498)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201200)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186943)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at K.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:104499)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126398
+	at be._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:116655)
+	at be.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126374)
+	at n._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13812)
+	at n._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13496)
+	at n._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12107)
+	at n._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10836)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8945
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34267
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at s._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23598)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21132
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at w.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15848)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14978
+	at Socket.P (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13790)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-14 12:35:01.201] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-03-14 12:35:01.201] [exthost] [error] Error: Unable to consume quoted string at char 292
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at o (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21278)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21705)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14498)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201200)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186943)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at K.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:104499)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126398
+	at be._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:116655)
+	at be.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126374)
+	at n._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13812)
+	at n._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13496)
+	at n._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12107)
+	at n._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10836)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8945
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34267
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at s._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23598)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21132
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at w.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15848)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14978
+	at Socket.P (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13790)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-14 12:35:01.202] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-03-14 12:35:01.202] [exthost] [error] Error: Unable to consume quoted string at char 292
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at o (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21278)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21705)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14498)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201200)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186943)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at K.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:104499)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126398
+	at be._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:116655)
+	at be.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126374)
+	at n._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13812)
+	at n._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13496)
+	at n._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12107)
+	at n._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10836)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8945
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34267
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at s._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23598)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21132
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at w.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15848)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14978
+	at Socket.P (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13790)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-14 12:35:01.245] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-03-14 12:35:01.248] [exthost] [error] Error: Unable to consume quoted string at char 292
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at o (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21278)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21705)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14498)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201200)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186943)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at K.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:104499)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126398
+	at be._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:116655)
+	at be.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126374)
+	at n._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13812)
+	at n._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13496)
+	at n._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12107)
+	at n._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10836)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8945
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34267
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at s._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23598)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21132
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at w.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15848)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14978
+	at Socket.P (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13790)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-14 12:35:07.057] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-03-14 12:35:07.057] [exthost] [error] Error: Unable to consume quoted string at char 292
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at o (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21278)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21705)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14498)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201200)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186943)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at K.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:104499)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126398
+	at be._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:116655)
+	at be.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126374)
+	at n._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13812)
+	at n._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13496)
+	at n._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12107)
+	at n._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10836)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8945
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34267
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at s._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23598)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21132
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at w.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15848)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14978
+	at Socket.P (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13790)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-14 12:35:07.234] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-03-14 12:35:07.235] [exthost] [error] Error: Unable to consume quoted string at char 292
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at o (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21278)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21705)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14498)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201200)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186943)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185715)
+	at K.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:104499)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126398
+	at be._withAdapter (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:116655)
+	at be.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:126374)
+	at n._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13812)
+	at n._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13496)
+	at n._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:12107)
+	at n._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10836)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:8945
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:34267
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at c.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:19017)
+	at s._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:23598)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:21132
+	at d.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:145)
+	at w.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:58:1856)
+	at w.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:15848)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:66:14978
+	at Socket.P (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:13790)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-14 20:30:35.689] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result, startup: false, activationEvent: 'onLanguage:search-result'
+[2022-03-14 20:35:30.105] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-03-14 22:17:44.588] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-03-14 22:17:44.661] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-03-14 22:17:45.108] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2022-03-21 17:37:41.395] [exthost] [info] ExtensionService#_doActivateExtension vscode.image-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+[2022-03-21 17:46:04.478] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-03-27 10:59:03.185] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-03-27 10:59:11.238] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-03-29 11:27:40.108] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-03-29 11:27:40.347] [exthost] [info] Extension host with pid 52389 exiting with code 0

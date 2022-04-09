@@ -1,0 +1,6 @@
+[2022-02-25 10:31:36.509] [renderer1] [info] IExtensionHostStarter.start() took 213 ms.
+[2022-02-25 10:31:39.100] [renderer1] [error] [Extension Host] (node:15346) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-02-25 10:31:43.434] [renderer1] [error] net::ERR_NETWORK_CHANGED: Error: net::ERR_NETWORK_CHANGED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:109:7068)
+    at SimpleURLLoaderWrapper.emit (events.js:315:20)
