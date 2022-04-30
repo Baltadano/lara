@@ -33,7 +33,7 @@
             <td><img src="image/{{$candidato->foto}}" width="128px" height="128px" ></td>
             <td><a href="pdf/{{$candidato->perfil}}">{{$candidato->nombrecompleto}}</td>
             <td><a href="{{ route('candidato.edit', $candidato->id)}}" 
-            class="btn btn-primary" >
+            class="btn btn-primary" >Editar
             <i class="fa fa-edit" aria-hidden="true"></i></a> </td>
             <td>
 
@@ -42,8 +42,8 @@
             @csrf
             @method('DELETE')
             <button class="btn btn-danger" type="submit"
-            onclick="return confirm('Esta seguro de borrar {{$candidato->nombrecompleto}}')" >
-            <i class="fa fa-trash" aria-hidden="true"></i></button>
+            onclick="return confirm('Esta seguro de borrar {{$candidato->nombrecompleto}}')">
+            <i class="fa fa-trash" aria-hidden="true">Delete</i></button>
             </form>
             </td>
         </tr>

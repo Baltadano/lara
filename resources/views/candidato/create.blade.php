@@ -39,6 +39,12 @@
                 <input type="file" id="foto" accept="image/png, image/jpeg" 
                  class="form-control" name="foto" />
             </div>
+
+            
+           
+
+            
+
             <div class="form-group">
                 <label for="perfil">Perfil:</label>
                 <input type="file" id="perfil" accept="application/pdf"
@@ -47,6 +53,21 @@
 
             <button type="submit" class="btn btn-primary">Guardar</button>
         </form>
+        <script>
+                    document.getElementById('foto').onchange =function(e){
+        let reader = new FileReader();
+        reader.readAsDataURL(e.target.files[0]);
+        reader.onload = function(){
+            let preview = document.getElementById("preview");
+            imagen = document.createElement('img');
+            imagen.src = reader.result;
+            imagen.style.width = "200px";
+            preview.innerHTML = "";
+            preview.append(imagen);
+            alert("Hola amigos!!!");
+        }
+}
+        </script>
     </div>
 </div>
 @endsection
