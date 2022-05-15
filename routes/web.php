@@ -25,7 +25,9 @@ use App\Http\Controllers\Auth\LoginController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('casilla/pdf',[CasillaController::class,'generatepdf']);
+Route::get('casilla/pdf',[CasillaController::class,'generatepdfHTML']);
+//Route::get('casilla/pdf',[CasillaController::class,'download']);
+
 
 Route::resource('casilla', CasillaController::class);
 Route::resource('candidato', CandidatoController::class);

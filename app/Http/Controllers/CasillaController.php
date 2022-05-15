@@ -113,4 +113,47 @@ class CasillaController extends Controller
         $pdf= PDF::loadView('casilla/list',['casillas'=>$casillas]);
         return $pdf->download('archivo.pdf');
     }
+
+    public function generatepdfHTML()
+    {
+        $html = "<div style ='text-align:center;
+        .page-break {
+            page-break-after: always;
+            }    
+        '>
+       
+           
+        
+      
+       <h1>Pagina 1</h1>
+      
+       <h1>Pagina 2</h1>
+       
+        <h1> PDF GENERADO DESDE ETIQUETAS HTML</h1>
+        <h2>Baltadano</h2>
+        <br>
+        <h3>&copy;cardozo.dev</h3>
+                </div> ";
+                $pdf = PDF::loadHTML($html);
+                return $pdf->download('archivo.pdf');
+                
+                if ( isset($pdf) ) {
+                    $pdf->page_script('
+                    $font = $fontMetrics->get_font("Arial, Helvetica, sans-serif", "normal");
+                    $pdf->text(270, 730, "Pagina $PAGE_NUM de $PAGE_COUNT", $font, 10);
+                    ');
+                    }
+        
+
+                $casillas = Casilla::all(); 
+               
+               
+                return PDF::loadView('casilla/list', ['casillas'=>$casillas])->stream('archivo.pdf');
+                //->stream('archivo.pdf');
+                
+                }
+
+               
+     
+
 }

@@ -202,7 +202,7 @@ return array(
          *
          * @var bool
          */
-        "enable_php" => false,
+        "enable_php" => true,//para habilitar la enumeracion de las paginas
 
         /**
          * Enable inline Javascript
