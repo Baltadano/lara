@@ -10,6 +10,9 @@ use App\Http\Controllers\EleccionController;
 use App\Http\Controllers\Auth\LoginController;
 
 
+use App\Http\Controllers\GraphPdfController;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -44,6 +47,8 @@ Route::get('/login/facebook/callback', 'Auth\LoginController@handleProviderFaceb
 Route::get('/login',[LoginController::class,'index']);
 Route::get('/login/facebook',[LoginController::class,'redirectToFacebookProvider']);Route::get('/login/facebook',[LoginController::class,'handleProviderFacebookCallback']);
 
+Route::get('graph',[GraphPdfController::class,'index']);
+Route::get('download',[GraphPdfController::class,'dwn'])->name('download');
 
 
 
