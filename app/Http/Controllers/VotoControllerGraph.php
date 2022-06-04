@@ -12,8 +12,8 @@ use Exception;
 use Illuminate\Support\Facades\DB;
 use PDF;
 
-class VotoController extends Controller
-{          
+class VotoControllerGraph extends Controller
+{   
     private $DUPLICATE_KEY_CODE=23000;
     private $DUPLICATE_KEY_MESSAGE="Ya existe un dato igual en la BD, no se permiten duplicados";
     /**
@@ -24,7 +24,7 @@ class VotoController extends Controller
     public function index()
     {
         $votos = Voto::all();
-        return view('voto/list', compact('votos'));
+        return view('voto/graphic', compact('votos'));
     }
 
     /**

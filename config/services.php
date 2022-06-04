@@ -12,6 +12,9 @@ return [
     | location for this type of information, allowing packages to have
     | a conventional file to locate the various service credentials.
     |
+     /550991113261054
+      //f387cbd0e503012b3fdc72c26e6244e0'
+
     */
 
     'mailgun' => [
@@ -31,13 +34,9 @@ return [
     ],
 
     'facebook' => [    
-        'client_id' => env('FACEBOOK_CLIENT_ID','419018129648646'),  
-        'client_secret' =>
-                env('FACEBOOK_CLIENT_SECRET',
-                '0751afe3f963d3218b797ba188242c7c'),  
-        'redirect' => env('FACEBOOK_REDIRECT_URI','
-            http://localhost:8888/login/facebook/callback')
-
+        'client_id' => env('FACEBOOK_CLIENT_ID'),    
+        'client_secret' => env('FACEBOOK_CLIENT_SECRET'),
+        'redirect' =>  env('FACEBOOK_REDIRECT_URI')
       ],
 
 ];

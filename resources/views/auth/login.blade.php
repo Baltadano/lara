@@ -16,11 +16,7 @@
                              <a class="btn-primary" href="/login/facebook">
                             Facebook Login
                             </a>
-                        <div class="card-body">
-                            <a class="btn-primary" href="/casilla/create">
-                            Crear una casilla
-                            </a>
-                        </div>
+                       
                     </div>
                 </div>
             </div>

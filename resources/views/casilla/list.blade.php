@@ -10,10 +10,11 @@
     @if(session()->get('success'))
     <div class="alert alert-success">
         {{ session()->get('success') }}
+        
     </div>
     <br />
     @endif
-<table class="table table-striped">
+  <table class="table table-striped">
     <thead>
         <tr>
             <td>ID</td>
@@ -22,6 +23,7 @@
         </tr>
     </thead>
     <tbody>
+        
         @foreach($casillas as $casilla)
         <tr>
             <td>{{$casilla->id}}</td>

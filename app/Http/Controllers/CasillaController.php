@@ -7,6 +7,7 @@ use App\Models\Casilla;
 use Barryvdh\DomPDF\Facade as PDF;// se agrego esta linea
 
 
+
 class CasillaController extends Controller
 {
     /**
@@ -110,9 +111,22 @@ class CasillaController extends Controller
     public function generatepdf()
     {
         $casillas = Casilla::all();
-        $pdf= PDF::loadView('casilla/list',['casillas'=>$casillas]);
-        return $pdf->download('archivo.pdf');
+        $pdf = PDF::loadView('casilla/list', ['casillas'=>$casillas]);
+        return $pdf->stream('archivo.pdf');
     }
+    
+    
+    public function createPDF(){
+        $render = view ('voto')->render();
+
+        $pdf = new Pdf;
+        $pdf->addPage($render);
+        $pdf->setOptions(['javascript-delay' => 5000]);
+        $pdf->saveAs(public_path('report.pdf'));
+
+        return response()->download(public_path('report.pdf'));
+    }
+    
 
     public function generatepdfHTML()
     {
@@ -120,20 +134,7 @@ class CasillaController extends Controller
         .page-break {
             page-break-after: always;
             }    
-        '>
-       
-           
-        
-      
-       <h1>Pagina 1</h1>
-      
-       <h1>Pagina 2</h1>
-       
-        <h1> PDF GENERADO DESDE ETIQUETAS HTML</h1>
-        <h2>Baltadano</h2>
-        <br>
-        <h3>&copy;cardozo.dev</h3>
-                </div> ";
+        '>";
                 $pdf = PDF::loadHTML($html);
                 return $pdf->download('archivo.pdf');
                 

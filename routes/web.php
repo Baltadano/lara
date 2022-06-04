@@ -28,9 +28,17 @@ use App\Http\Controllers\GraphPdfController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('casilla/pdf',[CasillaController::class,'generatepdfHTML']);
-//Route::get('casilla/pdf',[CasillaController::class,'download']);
+//Route::get('casilla/pdf',[CasillaController::class,'generatepdfHTML']);
+//Route::get('casilla/pdf',[CasillaController::class,'generatepdf']);//la descargfa encimada
 
+Route::get('casilla/pdf',[GraphPdfController::class,'generatepdf']);
+
+
+//Route::get('voto/pdf',[GraphPdfController::class,'createPDF'])->name('download');
+
+//Route::get('votograph',[VotoController::class,'index']);
+Route::get('voto/graphic',[GraphPdfController::class,'vista']);
+//Route::get('/productos', [Producto::class, 'index'])->name('productos.index');
 
 Route::resource('casilla', CasillaController::class);
 Route::resource('candidato', CandidatoController::class);
@@ -45,10 +53,17 @@ Route::get('/login/facebook/callback', 'Auth\LoginController@handleProviderFaceb
 */
 //Auth::routes();
 Route::get('/login',[LoginController::class,'index']);
-Route::get('/login/facebook',[LoginController::class,'redirectToFacebookProvider']);Route::get('/login/facebook',[LoginController::class,'handleProviderFacebookCallback']);
+Route::get('/login/facebook',[LoginController::class,'redirectToFacebookProvider']);;
+Route::get('/login/facebook/callback',[LoginController::class,'handleProviderFacebookCallback']);
+Route::get('logout',[LoginController::class,'logout']);
 
-Route::get('graph',[GraphPdfController::class,'index']);
+
+Route::get('graph',[GraphPdfController::class,'index']);//Vista de graph Normal 
+//Route::get('download',[GraphPdfController::class,'dwn'])->name('download');
 Route::get('download',[GraphPdfController::class,'dwn'])->name('download');
+
+
+
 
 
 
